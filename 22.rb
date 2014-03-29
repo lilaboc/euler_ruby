@@ -1,4 +1,4 @@
-c = eval("[" + File.read("names.txt") + "]")
+c = eval("[" + File.read("22.txt") + "]")
 c.sort!
 sum = 0
 c.each_index do |x|
